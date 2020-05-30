@@ -1,0 +1,51 @@
+$site-max-width: 1000px;
+
+$container-padding-phone: 20px;
+$container-padding-tablet: 40px;
+$container-padding-desktop: 80px;
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+/* apply a natural box layout model to all elements, but allowing components to change
+     * https://www.paulirish.com/2012/box-sizing-border-box-ftw/
+     */
+html {
+    box-sizing: border-box;
+}
+*,
+*:after,
+*:before {
+    box-sizing: inherit;
+}
+
+.wrapper {
+    // sticky footer
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.content-wrapper {
+    width: 100%;
+    max-width: $site-max-width;
+    position: relative;
+    margin: auto;
+
+    padding: 40px 0 0 0;
+
+    display: flex;
+    flex: 1 1 0;
+    flex-direction: row;
+
+    main {
+    }
+
+    // Sidebar
+    aside {
+        min-width: 240px;
+    }
+}

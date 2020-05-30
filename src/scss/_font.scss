@@ -1,0 +1,28 @@
+$font-size-sm: 12px;
+$font-size-md: 14px;
+$font-size-lg: 18px;
+$font-size-xl: 28px;
+$font-size-xxl: 36px;
+
+@mixin font--heading () {
+  font-family: 'Baloo Regular', sans-serif;
+  color: $color-2;
+}
+@mixin font--body () {
+  font-family: 'Roboto Regular', sans-serif;
+  color: $color-1;
+  font-size: $font-size-md;
+}
+
+
+@font-face {
+    font-family: Baloo Regular;
+    src: url(./fonts/Baloo-Regular.ttf);
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: Roboto Regular;
+    src: url(./fonts/Roboto-Regular.ttf);
+    font-weight: normal;
+}
