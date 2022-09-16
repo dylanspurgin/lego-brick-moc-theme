@@ -26,7 +26,7 @@
   "main": "gulpfile.js",
   "private": true,
   "devDependencies": {
-    "bootstrap": "^3.3.7",
+    "bootstrap": "^3.4.1",
     "bootstrap-sass": "^3.3.7",
     "browser-sync": "^2.14.3",
     "del": "^2.2.2",
